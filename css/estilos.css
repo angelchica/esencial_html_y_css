@@ -1,29 +1,55 @@
-header{
-    background:#0e0d0d;
+* {
+  margin: 0;
+  padding: 0;
 }
-header nav{
-    display: flex ;
-    flex-direction: row;
-    align-items: center;
-}
-header nav .menu{
-    display: flex ;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-header nav .menu .links {
+
+header {
+  background: #1b1a20;
+  width: 100vw;
+  height: 4.8em;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-header nav .menu .links a{
-    padding: 16px 20px;
-    color: white;
-    text-decoration: none;
+
+.logo {
+  margin-left: 7.5rem;
 }
-header nav .auth button{
-    padding: 20px 21px;
-    border: none;
-    background: orangered;
-    color: white;
+header nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
-  
+header nav .menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 32rem;
+  list-style: none;
+}
+header nav ul li {
+  padding: 1.5rem;
+}
+header nav li a {
+  text-transform: capitalize;
+  color: #6f8690;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+header nav ul li a:hover {
+  color: #fff;
+}
+/* header nav .menu .links a {
+  padding: 16px 20px;
+  color: white;
+  text-decoration: none;
+  font-size: Titillium Web, sans-serif;
+} */
+header nav .auth button {
+  padding: 20px 21px;
+  border: none;
+  background: orangered;
+  color: white;
+}
