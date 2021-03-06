@@ -1,0 +1,29 @@
+header{
+    background:#0e0d0d;
+}
+header nav{
+    display: flex ;
+    flex-direction: row;
+    align-items: center;
+}
+header nav .menu{
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav .menu .links {
+  display: flex;
+}
+header nav .menu .links a{
+    padding: 16px 20px;
+    color: white;
+    text-decoration: none;
+}
+header nav .auth button{
+    padding: 20px 21px;
+    border: none;
+    background: orangered;
+    color: white;
+}
+  
